@@ -1,0 +1,154 @@
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\appsettings.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.staticwebassets.runtime.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.exe
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.deps.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.runtimeconfig.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.dll
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.pdb
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.AssemblyReference.cache
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.AssemblyInfoInputs.cache
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.AssemblyInfo.cs
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.CoreCompileInputs.cache
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.RazorAssemblyInfo.cache
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.RazorAssemblyInfo.cs
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\ControlSeguros.App.Frontend.styles.css
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\ControlSeguros.App.Frontend.bundle.scp.css
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.dll
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\refint\ControlSeguros.App.Frontend.dll
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.pdb
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.genruntimeconfig.cache
+C:\Users\Felipe Rz\Downloads\Cursos\MinTic 2022\Ciclo 3 - (C#)\Desarrollo De Software\Proyecto\ControlSeguros\ControlSeguros.App.Frontend\obj\Debug\net6.0\ref\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\appsettings.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.staticwebassets.runtime.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.exe
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.deps.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.runtimeconfig.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.pdb
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Dominio.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Persistencia.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Persistencia.pdb
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Dominio.pdb
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.AssemblyReference.cache
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.AssemblyInfoInputs.cache
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.AssemblyInfo.cs
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.CoreCompileInputs.cache
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.RazorAssemblyInfo.cache
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.RazorAssemblyInfo.cs
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\ControlSeguros.App.Frontend.styles.css
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\ControlSeguros.App.Frontend.bundle.scp.css
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.CopyComplete
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\refint\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.pdb
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.genruntimeconfig.cache
+C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\obj\Debug\net6.0\ref\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\appsettings.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.staticwebassets.runtime.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.exe
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.deps.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.runtimeconfig.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Frontend.pdb
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Dominio.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Persistencia.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Persistencia.pdb
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\ControlSeguros.App.Dominio.pdb
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.AssemblyReference.cache
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.AssemblyInfoInputs.cache
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.AssemblyInfo.cs
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.CoreCompileInputs.cache
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.RazorAssemblyInfo.cache
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.RazorAssemblyInfo.cs
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\bundle\ControlSeguros.App.Frontend.styles.css
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\scopedcss\projectbundle\ControlSeguros.App.Frontend.bundle.scp.css
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.csproj.CopyComplete
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\refint\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.pdb
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ControlSeguros.App.Frontend.genruntimeconfig.cache
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\obj\Debug\net6.0\ref\ControlSeguros.App.Frontend.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Humanizer.dll
+C:\ControlSeguros-main\ControlSeguros.App.Frontend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll

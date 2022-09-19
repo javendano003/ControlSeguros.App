@@ -1,0 +1,76 @@
+﻿@page
+@model ControlSeguros.App.Frontend.Pages.RegistroMecanicoModel
+@{
+}
+
+
+<h1>REGISTRO DE USUARIOS</h1>
+<br><br>
+
+@* Falta poner asp-for *@
+
+    <form action="" method="get">
+
+        <div class="form-group">
+                <label asp-for="Usuario.Nombre">Nombre: </label>
+                <input asp-for="Usuario.Nombre" class="form-control">
+
+                <br>
+
+                <label asp-for="Usuario.Apellido">Apellido: </label>
+                <input asp-for="Usuario.Apellido" class="form-control">    
+
+                <br>  
+
+                <label asp-for="Usuario.Apellido">Tipo de Usuario (Usuario, Mécanico o Propietario): </label>
+                <input asp-for="Usuario.Apellido" class="form-control">          
+
+                <br>
+
+                <label asp-for="Usuario.NumeroTelefono">Número de teléfono: </label>
+                <input asp-for="Usuario.NumeroTelefono" class="form-control"> 
+
+                <br>
+
+                <label asp-for="Usuario.email" >Email: </label>
+                <input asp-for="Usuario.email"  class="form-control">
+
+                <br>
+
+                <label for="">Nivel De Estudio (Bachiller, Técnico o Técnologo): </label>
+                <input type="text" class="form-control">
+
+                <br>
+
+                <label for="">Ciudad de residencia: </label>
+                <input type="text" class="form-control">                 
+
+                <br>
+
+        </div>
+
+        <br>
+
+        <button type="submit" class="btn btn-primary">Registrar</button>
+ 
+    </form>
+
+    <br>
+
+    <h2>Buscar Usuario</h2>
+
+    <br>
+
+    <form action="" method="get">
+        <div class="form-group">
+            <label for="">Digite el Id: </label>
+            <input type="text" class="form-control">      
+        </div>
+
+        <br>
+
+        <button type="submit" class="btn btn-primary">Buscar</button>
+
+        @* <a class="btn btn-primary" asp-page="./ConsultarVehiculos">Buscar</a> *@
+
+    </form>    

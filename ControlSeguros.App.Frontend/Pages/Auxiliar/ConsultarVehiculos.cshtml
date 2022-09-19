@@ -1,0 +1,76 @@
+﻿@page
+@model ControlSeguros.App.Frontend.Pages.ConsultarVehiculosModel
+@{
+}
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  h1 {
+    text-align: center;
+  }
+</style>
+
+<h1>Lista de Vehiculos Registrados</h1>
+
+<table>
+  <tr>
+    <th>Placa</th>
+    <th>Marca</th>
+    <th>Modelo</th>
+    <th>Año</th>
+    <th>Propietario</th>
+    <th>Mecánico</th>
+    <th>Conductor</th>
+  </tr>
+  @foreach (var vehiculo in Model.VehiculoList)
+
+  {
+    <tr>
+      <td>@vehiculo.Id</td>
+      <td>@vehiculo.Marca</td>
+      <td>@vehiculo.Modelo</td>
+      <td>@vehiculo.Año</td>
+      <td>@vehiculo.Propietario</td>
+      <td>@vehiculo.Mecanico</td>
+      <td>@vehiculo.Conductor</td>
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./EditVehiculo" asp-route-MecanicoId="@vehiculo.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+          Editar
+        </a>
+      </td>
+      <td>
+        <form method="post" asp-page-handler="Delete" asp-route-id="@vehiculo.Id">
+          <button class="btn btn-danger">Borrar</button>
+        </form>
+      </td>
+    </tr>
+
+  }
+  <tr>
+
+  </tr>
+</table>
+
+<br>
+
+<div>
+  <a class="btn btn-primary table-btn" asp-page="./CrearVehiculo">
+    <i class="fas fa-address-book fa-lg" aria-hidden="true">Crear Vehiculo</i>
+  </a>
+</div>

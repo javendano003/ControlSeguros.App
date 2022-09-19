@@ -1,0 +1,65 @@
+@page
+@model ControlSeguros.App.Frontend.Pages.Auxiliar.ListaUsuarios
+@{
+  ViewData["Title"] = "ListaUsuarios";
+}
+
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  h1 {
+    text-align: center;
+  }
+</style>
+
+<h1>Lista de Usuarios Registrados</h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Teléfono</th>
+    <th>email</th>
+  </tr>
+  @foreach (var usuario in Model.UsuarioList)
+  {
+    <tr>
+      <td>@usuario.Nombre</td>
+      <td>@usuario.Apellido</td>
+      <td>@usuario.NumeroTelefono</td>
+      <td>@usuario.email</td>
+      <td>
+        <a class="btn btn-primary table-btn" asp-page="./EditUsuario" asp-route-MecanicoId="@usuario.Id">
+          <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+          Editar
+        </a>
+      </td>
+      <td>
+        <form method="post" asp-page-handler="Delete" asp-route-id="@usuario.Id">
+          <button class="btn btn-danger">Borrar</button>
+        </form>
+      </td>
+    </tr>
+  }
+</table>
+
+<div>
+  <a class="btn btn-primary table-btn" asp-page="./CrearUsuario">
+    <i class="fas fa-address-book fa-lg" aria-hidden="true">Crear Usuario</i>
+  </a>
+</div>

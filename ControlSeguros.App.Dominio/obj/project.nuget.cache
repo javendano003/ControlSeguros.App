@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dvUH3T//ywx7CLkr7TfpbMTlSRR2J3xtxBLRG8StvpP4qx3hURAUv3cigKQZw35I1HPW5IHjB75b8jXg639jrA==",
+  "success": true,
+  "projectFilePath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
