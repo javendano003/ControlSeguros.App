@@ -6,7 +6,7 @@ using Microsoft.Extensions.Hosting;
 
 using ControlSeguros.App.Persistencia.AppRepositorios;
 
-namespace HolaWeb.App.Frontend
+namespace ControlSeguros.App.Frontend
 {
     public class Startup
     {
