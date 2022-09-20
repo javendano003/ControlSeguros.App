@@ -12,7 +12,7 @@ namespace ControlSeguros.App.Dominio
         public string NombreUsuario { get; set; } = null!;
         public string Password { get; set; } = null!;
         public string TipoUsuario { get; set; } = null!;
-        public string FechaIngreso { get; set; } = null!;
+        public DateTime FechaIngreso { get; set; }
     }
 
 }

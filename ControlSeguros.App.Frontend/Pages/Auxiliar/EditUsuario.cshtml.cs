@@ -1,24 +1,35 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Persistencia.AppRepositorios;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+
 
 namespace ControlSeguros.App.Frontend.Pages.Auxiliar
 {
     public class EditUsuario : PageModel
     {
-        private readonly ILogger<EditUsuario> _logger;
+        private readonly IRepositorioUsuario repositorioUsuario = new RepositorioUsuario(new Persistencia.AppContext());
 
-        public EditUsuario(ILogger<EditUsuario> logger)
+        public Usuario usuario { get; set; }
+
+        public IActionResult OnGet(int usuarioId)
         {
-            _logger = logger;
+            usuario = repositorioUsuario.GetUsuario(usuarioId);
+            if (usuario==null)
+            {
+                return RedirectToPage("./NotFound");
+            }
+            else
+            {
+                return Page();
+            }
         }
 
-        public void OnGet()
-        {
+        public IActionResult OnPost(Usuario usuario)
+        { 
+            Console.WriteLine($"Usuario ID: {usuario.Id}");
+            repositorioUsuario.UpdateUsuario(usuario);
+            return RedirectToPage("ListaUsuarios");
         }
     }
 }

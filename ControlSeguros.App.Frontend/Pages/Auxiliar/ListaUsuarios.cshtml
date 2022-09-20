@@ -31,20 +31,26 @@
 
 <table>
   <tr>
+    <th>ID</th>
     <th>Nombre</th>
     <th>Apellido</th>
     <th>Teléfono</th>
     <th>email</th>
+    <th>Tipo De Usuario</th>
+    <th>Fecha De Ingreso</th>
   </tr>
   @foreach (var usuario in Model.UsuarioList)
   {
     <tr>
+      <td>@usuario.Id</td>
       <td>@usuario.Nombre</td>
       <td>@usuario.Apellido</td>
       <td>@usuario.NumeroTelefono</td>
       <td>@usuario.email</td>
+      <td>@usuario.TipoUsuario</td>
+      <td>@usuario.FechaIngreso</td>
       <td>
-        <a class="btn btn-primary table-btn" asp-page="./EditUsuario" asp-route-MecanicoId="@usuario.Id">
+        <a class="btn btn-primary table-btn" asp-page="./EditUsuario" asp-route-usuarioId="@usuario.Id">
           <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
           Editar
         </a>
@@ -57,7 +63,7 @@
     </tr>
   }
 </table>
-
+<br>
 <div>
   <a class="btn btn-primary table-btn" asp-page="./CrearUsuario">
     <i class="fas fa-address-book fa-lg" aria-hidden="true">Crear Usuario</i>
