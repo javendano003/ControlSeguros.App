@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NgQp1b3OHc7tAnxkeHYU/+k1FR64wxb7XaycNiRYXHyFXTEWNSfA0Gbd21PZKIm3ZuSKDor2NO29Sxe2Kq57xw==",
+  "dgSpecHash": "gi+FmG1grikbludQpoND/0J0haQs4iHyNWP4ukYf6c88TAiUgxql10QATZAayBp30AA59qopiuABeU0YCRR/QQ==",
   "success": true,
-  "projectFilePath": "C:\\ControlSeguros-main\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj",
+  "projectFilePath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

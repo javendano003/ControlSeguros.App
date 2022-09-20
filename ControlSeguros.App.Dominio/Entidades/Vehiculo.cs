@@ -11,7 +11,6 @@ namespace ControlSeguros.App.Dominio
         public string Propietario { get; set; }
         public string Mecanico { get; set; }
         public string Conductor { get; set; }
-        
     }
     
 }

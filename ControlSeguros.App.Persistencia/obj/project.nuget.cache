@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+G33TDmvkqYqk4z2E149wPZ90nnMIh1/8simBFGKJv28q5lAQ1qafFQ8346poOjVCY98KwfKFtmw5Bxc9I61tw==",
+  "dgSpecHash": "rbwKwzpMGRYUAcARuuvl6NfQpDvFaITojFo2blKKb2M/I/3O1Jflx6k3Ox5KLkL8iA7SEq/nkRhQdiDIq4GUvw==",
   "success": true,
-  "projectFilePath": "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj",
+  "projectFilePath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

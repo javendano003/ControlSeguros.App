@@ -7,74 +7,52 @@
 <h1>REGISTRO DE USUARIOS</h1>
 <br><br>
 
-@* Falta poner asp-for *@
-
-    <form action="" method="post">
+    <form method="post" >
 
         <div class="form-group">
-                <label asp-for="usuario.Nombre">Nombre: </label>
-                <input asp-for="usuario.Nombre" class="form-control">
+            <label asp-for="usuario.Nombre">Nombre: </label>
+            <input asp-for="usuario.Nombre" class="form-control">
 
-                <br>
+            <br>
 
-                <label asp-for="usuario.Apellido">Apellido: </label>
-                <input asp-for="usuario.Apellido" class="form-control">    
+            <label asp-for="usuario.Apellido">Apellido: </label>
+            <input asp-for="usuario.Apellido" class="form-control">
+        
+            <br>
 
-                <br>  
+            <label asp-for="usuario.NumeroTelefono">Numero de Teléfono </label>
+            <input asp-for="usuario.NumeroTelefono" class="form-control">
 
-                <label asp-for="usuario.NumeroTelefono">Numero de Teléfono </label>
-                <input asp-for="usuario.NumeroTelefono" class="form-control">          
+            <br>
 
-                <br>
+            <label asp-for="usuario.email">Email: </label>
+            <input asp-for="usuario.email" class="form-control">
 
-                <label asp-for="usuario.email">Email: </label>
-                <input asp-for="usuario.email" class="form-control"> 
+            <br>
 
-                <br>
+            <label asp-for="usuario.NombreUsuario">Nombre Usuario: </label>
+            <input asp-for="usuario.NombreUsuario" class="form-control">
 
-                <label asp-for="usuario.NombreUsuario" >Nombre Usuario: </label>
-                <input asp-for="usuario.NombreUsuario"  class="form-control">
+            <br>
 
-                <br>
+            <label asp-for="usuario.Password">Password: </label>
+            <input asp-for="usuario.Password" class="form-control">
 
-                <label asp-for="usuario.Password" >Password: </label>
-                <input asp-for="usuario.Password"  class="form-control">
+            <br>
 
-                <br>
+            <label asp-for="usuario.TipoUsuario">Tipo de Usuario: </label>
+            <input asp-for="usuario.TipoUsuario" class="form-control">
 
-                <label asp-for="usuario.TipoUsuario" >Tipo de Usuario: </label>
-                <input asp-for="usuario.TipoUsuario"  class="form-control">                 
+            <br>
 
-                <br>
+            <label asp-for="usuario.FechaIngreso">Fecha de Ingreso: </label>
+            <input asp-for="usuario.FechaIngreso" class="form-control">
 
-                <label asp-for="usuario.FechaIngreso">Fecha de Ingreso: </label>
-                <input asp-for="usuario.FechaIngreso"  class="form-control">                 
-
-                <br>
+            <br>
         </div>
 
         <br>
 
-    <button type="submit" class="btn btn-primary">Registrar</button>
- 
+        <button type="submit" class="btn btn-primary">Registrar</button>
+
     </form>
-
-    <br>
-
-    <h2>Buscar Usuario</h2>
-
-    <br>
-
-    <form action="" method="get">
-        <div class="form-group">
-            <label for="">Digite el Id: </label>
-            <input type="text" class="form-control">      
-        </div>
-
-        <br>
-
-        <button type="submit" class="btn btn-primary">Buscar</button>
-
-        @* <a class="btn btn-primary" asp-page="./ConsultarVehiculos">Buscar</a> *@
-
-    </form>    

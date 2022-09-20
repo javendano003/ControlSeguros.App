@@ -15,8 +15,8 @@ namespace ControlSeguros.App.Frontend.Pages.Auxiliar
         private readonly IRepositorioUsuario repositorioUsuario = new RepositorioUsuario(new Persistencia.AppContext());
          
         public Usuario usuario { get; set; }
-
-        public IActionResult OnPost()
+    
+        public IActionResult OnPost(Usuario usuario)
         {
             if(!ModelState.IsValid)
             {
@@ -25,7 +25,7 @@ namespace ControlSeguros.App.Frontend.Pages.Auxiliar
             else
             {
                 repositorioUsuario.AddUsuario(usuario);
-                return Page();
+                return RedirectToPage("ListaUsuarios");
             }
 
         }
