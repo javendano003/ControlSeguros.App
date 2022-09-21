@@ -14,6 +14,9 @@ namespace ControlSeguros.App.Persistencia
         void DeletePropietario(int idPropietario);
         Propietario GetPropietario(int idPropietario);
         IEnumerable<Propietario> BuscarPropietario(string filtro);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e833710430053eeda79223dbe23e3b02dc067f5
     }
 }

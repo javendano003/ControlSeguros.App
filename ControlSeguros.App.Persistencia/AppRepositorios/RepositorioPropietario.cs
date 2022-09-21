@@ -77,10 +77,18 @@ namespace ControlSeguros.App.Persistencia
 
         }
 
+<<<<<<< HEAD
         IEnumerable<Propietario> IRepositorioPropietario.BuscarPropietario(string filtro = null)
         {
             return _appContext.Propietarios.Where(m => m.Documento.Contains(filtro) || m.Nombre.Contains(filtro) || m.Apellidos.Contains(filtro));
         }
+=======
+        IEnumerable<Propietario> IRepositorioPropietario.BuscarPropietario(string filtro = null) // la asignación filtro=null indica que el parámetro filtro es opcional
+        {
+            return _appContext.Propietarios.Where(m => m.Documento.Contains(filtro) || m.Nombre.Contains(filtro) || m.Apellidos.Contains(filtro));
+        }
+
+>>>>>>> 6e833710430053eeda79223dbe23e3b02dc067f5
     }
 
 }
