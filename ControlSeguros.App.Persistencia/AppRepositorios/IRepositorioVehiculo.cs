@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 
 namespace ControlSeguros.App.Persistencia
@@ -9,10 +9,10 @@ namespace ControlSeguros.App.Persistencia
     {
 
         IEnumerable<Vehiculo> GetAllVehiculos();
-        Vehiculo AddVehiculo(Vehiculo Vehiculo);
-        Vehiculo UpdateVehiculo(Vehiculo Vehiculo);
-        void DeleteVehiculo(string Id);
-        Vehiculo GetVehiculo(string Id);
+        Vehiculo AddVehiculo(Vehiculo vvehiculo);
+        Vehiculo UpdateVehiculo(Vehiculo vvehiculo);
+        void DeleteVehiculo(int vvehiculoId);
+        Vehiculo GetVehiculo(int vvehiculoId);
 
     }
 

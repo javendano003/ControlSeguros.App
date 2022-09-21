@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ControlSeguros.App.Frontend
 build_property.RootNamespace = ControlSeguros.App.Frontend
-build_property.ProjectDir = C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\
+build_property.ProjectDir = c:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend
+build_property.MSBuildProjectDirectory = c:\ControlSeguros\ControlSeguros.App\ControlSeguros.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/BuscarVehiculo.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/BuscarVehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcQnVzY2FyVmVoaWN1bG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/ConsultarVehiculos.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/ConsultarVehiculos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcQ29uc3VsdGFyVmVoaWN1bG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/CrearUsuario.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/CrearUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcQ3JlYXJVc3VhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/CrearVehiculo.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/CrearVehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcQ3JlYXJWZWhpY3Vsby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/EditUsuario.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/EditUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcRWRpdFVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/EditVehiculo.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/EditVehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcRWRpdFZlaGljdWxvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/Historial.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/Historial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcSGlzdG9yaWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/ListaUsuarios.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Auxiliar/ListaUsuarios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJcTGlzdGFVc3Vhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Error.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Index.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Privacy.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/_ViewImports.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/_ViewStart.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Shared/_Layout.cshtml]
+[c:/ControlSeguros/ControlSeguros.App/ControlSeguros.App.Frontend/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-0tevgytva0

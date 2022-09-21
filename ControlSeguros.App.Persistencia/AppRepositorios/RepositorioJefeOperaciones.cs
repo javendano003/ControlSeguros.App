@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 namespace ControlSeguros.App.Persistencia.AppRepositorios
 {

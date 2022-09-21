@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using ControlSeguros.App.Dominio.Entidades;
 
-namespace ControlSeguros.App.Dominio
+namespace ControlSeguros.App.Dominio.Entidades
 {
     public class Vehiculo
     {

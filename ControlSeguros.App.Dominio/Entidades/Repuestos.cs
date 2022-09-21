@@ -1,14 +1,12 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace ControlSeguros.App.Dominio
+namespace ControlSeguros.App.Dominio.Entidades
 {
     public class Repuestos
     {
-        public string Id { get; set; } = null!;
-        public string NombreRepuesto { get; set; } = null!;
-        public int Cantidad { get; set; }
-        public DateTime FechaCompra { get; set; }
-
+        [Key]
+        public int RepuestosId {get;set; }
+        public string? Descripcion { get; set; }
     }
-
 }

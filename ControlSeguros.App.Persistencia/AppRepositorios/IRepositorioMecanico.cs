@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 
 namespace ControlSeguros.App.Persistencia

@@ -1,68 +1,80 @@
 using System.Collections.Generic;
 using System.Linq;
-using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 namespace ControlSeguros.App.Persistencia
 {
     public class RepositorioVehiculo : IRepositorioVehiculo
     {
         ///<summary>
-        ///Referencia al contexto de Paciente
+        ///Referencia al contexto de Vehiculo
         ///</summary>
 
         private readonly AppContext _appContext;
         ///<summary>
-        ///Metodo Constructor 
+        ///Metodo Constructos 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         ///</summary>
         ///<param name="appContext"></param>//
+
         public RepositorioVehiculo(AppContext appContext)
         {
             _appContext = appContext;
         }
+
+
+        Vehiculo IRepositorioVehiculo.AddVehiculo(Vehiculo vvehiculo)
+        {
+            var vvehiculoAdicionado = _appContext.Vehiculos.Add(vvehiculo);
+            _appContext.SaveChanges();
+            return vvehiculoAdicionado.Entity;
+        }
+
+        void IRepositorioVehiculo.DeleteVehiculo(int vvehiculoId)
+        {
+
+            var vvehiculoEncontrado = _appContext.Vehiculos.FirstOrDefault(p => p.VehiculoId == vvehiculoId);
+            Console.WriteLine("Borrando: "+vvehiculoId);
+            if (vvehiculoEncontrado == null)
+                return;
+            Console.WriteLine("Encontrado: ");
+            _appContext.Vehiculos.Remove(vvehiculoEncontrado);
+            _appContext.SaveChanges();
+        }
+
 
         IEnumerable<Vehiculo> IRepositorioVehiculo.GetAllVehiculos()
         {
             return _appContext.Vehiculos;
         }
 
-        Vehiculo IRepositorioVehiculo.AddVehiculo(Vehiculo vehiculo)
+
+        Vehiculo IRepositorioVehiculo.GetVehiculo(int vvehiculoId)
         {
-            var VehiculoCreado = _appContext.Vehiculos.Add(vehiculo);
-            _appContext.SaveChanges();
-            return VehiculoCreado.Entity;
+            return _appContext.Vehiculos.FirstOrDefault(p => p.VehiculoId == vvehiculoId);
         }
 
-        void IRepositorioVehiculo.DeleteVehiculo(string Id)
+        Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo vvehiculo)
         {
-            var VehiculoCreado = _appContext.Vehiculos.FirstOrDefault(u => u.Id == Id);
-            if (VehiculoCreado == null)
-            return;
-            _appContext.Vehiculos.Remove(VehiculoCreado);
-            _appContext.SaveChanges();
-        }
-
-        
-        Vehiculo IRepositorioVehiculo.GetVehiculo(string Id)
-        {
-            return _appContext.Vehiculos.FirstOrDefault(u => u.Id == Id);
-        }
-
-        Vehiculo IRepositorioVehiculo.UpdateVehiculo(Vehiculo Vehiculo)
-        {
-            var VehiculoEncontrado = _appContext.Vehiculos.FirstOrDefault(u => u.Id == Vehiculo.Id);
-            if (VehiculoEncontrado!=null)
+            var vvehiculoEncontrado = _appContext.Vehiculos.FirstOrDefault(p => p.VehiculoId == vvehiculo.VehiculoId);
+            if (vvehiculoEncontrado != null)
             {
-                VehiculoEncontrado.Modelo = Vehiculo.Modelo;
-                VehiculoEncontrado.Año = Vehiculo.Año;
-                VehiculoEncontrado.Marca = Vehiculo.Marca;
-                
+                vvehiculoEncontrado.Placa = vvehiculo.Placa;
+                vvehiculoEncontrado.Marca = vvehiculo.Marca;
+                vvehiculoEncontrado.Modelo = vvehiculo.Modelo;
+                vvehiculoEncontrado.VehiculoTipoId = vvehiculo.VehiculoTipoId;
+                vvehiculoEncontrado.CantidadPasajeros = vvehiculo.CantidadPasajeros;
+                vvehiculoEncontrado.CilindrajeMotor = vvehiculo.CilindrajeMotor;
+                vvehiculoEncontrado.PropietarioId = vvehiculo.PropietarioId;
+                vvehiculoEncontrado.ConductorId = vvehiculo.ConductorId;
+                vvehiculoEncontrado.MecanicoId = vvehiculo.MecanicoId;
 
+                
                 _appContext.SaveChanges();
 
             }
+            return vvehiculoEncontrado;
 
-            return VehiculoEncontrado;
         }
     }
 }

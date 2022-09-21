@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ControlSeguros.App.Dominio.Entidades
 {
-    public class JefeDeOperaciones
+    public class JefeOperaciones
     {
         [Key]
         public int JefeOperacionesId { get; set; }

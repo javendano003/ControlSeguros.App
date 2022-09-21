@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 
-namespace ControlSeguros.App.Persistencia
+namespace ControlSeguros.App.Persistencia.AppRepositorios
 {
 
     public interface IRepositorioConductor

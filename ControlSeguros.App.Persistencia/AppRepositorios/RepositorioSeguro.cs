@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 namespace ControlSeguros.App.Persistencia
 {
@@ -30,7 +30,7 @@ namespace ControlSeguros.App.Persistencia
 
         void IRepositorioSeguro.DeleteSeguro(int Id)
         {
-            var SeguroCreado = _appContext.Seguros.FirstOrDefault(u => u.Id == Id);
+            var SeguroCreado = _appContext.Seguros.FirstOrDefault(u => u.SeguroId == Id);
             if (SeguroCreado == null)
             return;
             _appContext.Seguros.Remove(SeguroCreado);
@@ -45,24 +45,24 @@ namespace ControlSeguros.App.Persistencia
         
         Seguro IRepositorioSeguro.GetSeguro(int Id)
         {
-            return _appContext.Seguros.FirstOrDefault(u => u.Id == Id);
+            return _appContext.Seguros.FirstOrDefault(u => u.SeguroId == Id);
         }
 
-        Seguro IRepositorioSeguro.UpdateSeguro(Seguro Seguro)
+        Seguro IRepositorioSeguro.UpdateSeguro(Seguro vseguro)
         {
-            var SeguroEncontrado = _appContext.Seguros.FirstOrDefault(u => u.Id == Seguro.Id);
-            if (SeguroEncontrado!=null)
+            var vseguroEncontrado = _appContext.Seguros.FirstOrDefault(p => p.SeguroId == vseguro.SeguroId);
+            if (vseguroEncontrado != null)
             {
-                SeguroEncontrado.Id = Seguro.Id;
-                SeguroEncontrado.TipoSeguro = Seguro.TipoSeguro;
-                SeguroEncontrado.FechaCompra = Seguro.FechaCompra;
-                SeguroEncontrado.FechaVencimiento = Seguro.FechaVencimiento;
-
+                vseguroEncontrado.CodigoSeguro = vseguro.CodigoSeguro;
+                vseguroEncontrado.FechaCompra = vseguro.FechaCompra;
+                vseguroEncontrado.FechaVencimiento = vseguro.FechaVencimiento;
+                vseguroEncontrado.TipoSeguroId = vseguro.TipoSeguroId;
+                vseguroEncontrado.VehiculoId = vseguro.VehiculoId;
+                                
                 _appContext.SaveChanges();
 
             }
-
-            return SeguroEncontrado;
+            return vseguroEncontrado;
         }
     }
 }

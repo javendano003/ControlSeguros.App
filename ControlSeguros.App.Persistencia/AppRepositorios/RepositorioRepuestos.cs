@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using ControlSeguros.App.Dominio;
+using ControlSeguros.App.Dominio.Entidades;
 
 namespace ControlSeguros.App.Persistencia
 {
@@ -23,6 +24,11 @@ namespace ControlSeguros.App.Persistencia
             _appContext = appContext;
         }
 
+        public IEnumerable<Repuestos> GetAllRepuestos()
+        {
+            throw new NotImplementedException();
+        }
+
 
         // Repuestos IRepositorioRepuestos.AddRepuestos(Repuestos repuestos)
         // {
@@ -34,7 +40,7 @@ namespace ControlSeguros.App.Persistencia
         void IRepositorioRepuestos.DeleteRepuestos(int IdRepuestos)
         {
 
-            var repuestosEncontrado = _appContext.Repuestos.FirstOrDefault(p => p.RepuestosId == IdRepuestos);
+            var repuestosEncontrado = _appContext.Repuestos.FirstOrDefault(p => p. == IdRepuestos);
             if (repuestosEncontrado == null)
                 return;
             _appContext.Repuestos.Remove(repuestosEncontrado);
