@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ControlSeguros-main\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj": {}
+    "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj": {
+    "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
+        "projectUniqueName": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
         "projectName": "ControlSeguros.App.Dominio",
-        "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
+        "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\obj\\",
+        "outputPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\ControlSeguros-main\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj": {
+    "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ControlSeguros-main\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj",
+        "projectUniqueName": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj",
         "projectName": "ControlSeguros.App.Frontend",
-        "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj",
+        "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\ControlSeguros.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Frontend\\obj\\",
+        "outputPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,11 +89,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj": {
-                "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj"
+              "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj": {
+                "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj"
               },
-              "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj": {
-                "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj"
+              "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj": {
+                "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj"
               }
             }
           }
@@ -138,14 +138,14 @@
         }
       }
     },
-    "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj": {
+    "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj",
         "projectName": "ControlSeguros.App.Persistencia",
-        "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj",
+        "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\ControlSeguros.App.Persistencia.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Persistencia\\obj\\",
+        "outputPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj": {
-                "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj"
+              "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj": {
+                "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj"
               }
             }
           }

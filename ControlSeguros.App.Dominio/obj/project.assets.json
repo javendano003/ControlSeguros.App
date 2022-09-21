@@ -120,11 +120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
+      "projectUniqueName": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
       "projectName": "ControlSeguros.App.Dominio",
-      "projectPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
+      "projectPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\ControlSeguros.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\ControlSeguros-main\\ControlSeguros.App.Dominio\\obj\\",
+      "outputPath": "C:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

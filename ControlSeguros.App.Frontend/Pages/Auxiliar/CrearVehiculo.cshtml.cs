@@ -17,7 +17,7 @@ namespace ControlSeguros.App.Frontend.Pages.Auxiliar
          
         public Vehiculo vehiculo { get; set; }
 
-        public IActionResult OnPost()
+        public IActionResult OnPost(Vehiculo vehiculo)
         {
             if(!ModelState.IsValid)
             {
