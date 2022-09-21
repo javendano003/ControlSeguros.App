@@ -13,6 +13,6 @@ namespace ControlSeguros.App.Persistencia
         Propietario UpdatePropietario(Propietario Propietario);
         void DeletePropietario(int idPropietario);
         Propietario GetPropietario(int idPropietario);
-
+        IEnumerable<Propietario> BuscarPropietario(string filtro);
     }
 }
