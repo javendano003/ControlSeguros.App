@@ -1,13 +1,22 @@
 using System;
+using System.ComponentModel.DataAnnotations;
+using ControlSeguros.App.Dominio.Entidades;
 
 namespace ControlSeguros.App.Dominio
 {
     public class Seguro
     {
-        public int Id { get; set; }
-        public string TipoSeguro { get; set; }
+        [Key]
+        public int SeguroId  { get; set; }
+        public string? CodigoSeguro { get; set; }
         public DateTime FechaCompra { get; set; }
         public DateTime FechaVencimiento { get; set; }
+        public int TipoSeguroId  { get; set; }  //* foranea a Tipo Seguro *//
+        //[ForeignKey("TipoSeguroId")]
+        public TipoSeguro? TipoSeguro { get; set; }
+        public int VehiculoId { get; set; }  //* foranea a Vehiculo *//
+        //[ForeignKey("VehiculoId")]
+        public Vehiculo? Vehiculo { get; set; }
 
     }
 
