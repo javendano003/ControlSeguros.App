@@ -24,5 +24,6 @@ namespace ControlSeguros.App.Frontend.Pages.JefeOp
 
             _repoJefeOperaciones.AddJefeOperaciones(NewJefeOp);
             return Page();
+        }
     }
 }
