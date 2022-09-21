@@ -12,6 +12,7 @@ namespace ControlSeguros.App.Persistencia.AppRepositorios
         Auxiliar UpdateAuxiliar(Auxiliar auxiliar);
         void DeleteAuxiliar(int idAuxiliar);
         Auxiliar GetAuxiliar(int idAuxiliar);
+        IEnumerable<Auxiliar> BuscarAuxiliar(string filtro);
 
     }
 }

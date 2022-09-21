@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using ControlSeguros.App.Dominio;
 using ControlSeguros.App.Dominio.Entidades;
 
-namespace ControlSeguros.App.Frontend.Pages.Usuarios
+namespace ControlSeguros.App.Frontend.Pages.MecanicoPag
 {
     public class MecanicoModel : PageModel
     {
         private readonly IRepositorioMecanico _repoMecanico= new RepositorioMecanico(new Persistencia.AppContext());
-        public IEnumerable<Mecanico> ListaMecanicos {get; set;}
+        public IEnumerable<Mecanico> ListaMecanicos {get; set;} = null!;
 
         [BindProperty(SupportsGet =true)]
         public string FiltroBusqueda { get; set;} = null!;

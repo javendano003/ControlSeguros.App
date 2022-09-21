@@ -1,0 +1,53 @@
+@page
+@model ControlSeguros.App.Frontend.Pages.PropietarioPag.EditarPropietariosModel
+@{
+}
+
+<h2>Registrar Propietario</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="EditPropietario.Documento">Documento:</label>
+        <input asp-for="EditPropietario.Documento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.Documento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditPropietario.Nombre">Nombre:</label>
+        <input asp-for="EditPropietario.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditPropietario.Apellidos">Apellidos:</label>
+        <input asp-for="EditPropietario.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditPropietario.Telefono">Telefono:</label>
+        <input asp-for="EditPropietario.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditPropietario.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" asp-for="EditPropietario.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.FechaNacimiento"></span>
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="EditPropietario.Usuario" class="form-control">
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="EditPropietario.Contraseña" class="form-control">
+    </div>
+    <div class="form-group">
+        <label asp-for="EditPropietario.Ciudad">Ciudad Residencia:</label>
+        <input asp-for="EditPropietario.Ciudad" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.Ciudad"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditPropietario.Correo">email:</label>
+        <input asp-for="EditPropietario.Correo" class="form-control">
+        <span class="text-danger" asp-validation-for="EditPropietario.Correo"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form>
+
+<a asp-page="./ListaPropietarios" class="btn-default">Lista</a>

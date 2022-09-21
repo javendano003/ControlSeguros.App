@@ -1,5 +1,5 @@
 @page
-@model ControlSeguros.App.Frontend.Pages.Usuarios.MecanicoModel
+@model ControlSeguros.App.Frontend.Pages.MecanicoPag.MecanicoModel
 @{
 }
 
@@ -41,14 +41,14 @@
             <td>@Mecanico.Direccion</td>
             <td>@Mecanico.NivelEstudio</td>
             <td>
-                <a class="btn btn-primary table-btn" asp-page="./EditMecanico" asp-route-MecanicoId="@Mecanico.MecanicoId">
+                <a class="btn btn-primary table-btn" asp-page="./EditarMecanico" asp-route-MecanicoId="@Mecanico.MecanicoId">
                     <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
                     Editar
                 </a>
             </td>
             <td>
                 <form method="post" asp-page-handler="Delete" asp-route-id="@Mecanico.MecanicoId">
-                    <button class="btn btn-danger">Borrar</button>
+                    <button class="btn btn-danger">Eliminar</button>
                 </form>
             </td>
         </tr>

@@ -72,12 +72,12 @@ namespace ControlSeguros.App.Persistencia.AppRepositorios
                 ConductorEncontrado.NivelEstudio = conductor.NivelEstudio;
 
                 _appContext.SaveChanges();
-
             }
             return ConductorEncontrado;
-
         }
-
+        IEnumerable<Conductor> IRepositorioConductor.BuscarConductor(string filtro = null) // la asignación filtro=null indica que el parámetro filtro es opcional
+        {
+            return _appContext.Conductores.Where(m => m.Documento.Contains(filtro) || m.Nombre.Contains(filtro) || m.Apellidos.Contains(filtro));
+        }
     }
-
 }

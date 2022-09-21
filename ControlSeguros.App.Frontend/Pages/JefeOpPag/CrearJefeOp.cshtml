@@ -1,0 +1,48 @@
+@page
+@model ControlSeguros.App.Frontend.Pages.JefeOp.CrearJefeOpModel
+@{
+}
+
+<h2>Registrar Jefe De Operaciones</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NewJefeOp.Documento">Documento:</label>
+        <input asp-for="NewJefeOp.Documento" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.Documento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewJefeOp.Nombre">Nombre:</label>
+        <input asp-for="NewJefeOp.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewJefeOp.Apellidos">Apellidos:</label>
+        <input asp-for="NewJefeOp.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewJefeOp.Telefono">Telefono:</label>
+        <input asp-for="NewJefeOp.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewJefeOp.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" asp-for="NewJefeOp.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.FechaNacimiento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewJefeOp.Usuario">Usuario:</label>
+        <input asp-for="NewJefeOp.Usuario" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.Usuario"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewJefeOp.Contraseña">Contraseña:</label>
+        <input type="password" asp-for="NewJefeOp.Contraseña" class="form-control">
+        <span class="text-danger" asp-validation-for="NewJefeOp.Contraseña"></span>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form>
+
+<a asp-page="./ListaJefeOp" class="btn-default">Lista</a>

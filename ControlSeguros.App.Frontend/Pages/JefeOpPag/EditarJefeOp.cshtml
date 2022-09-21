@@ -1,0 +1,45 @@
+@page
+@model ControlSeguros.App.Frontend.Pages.JefeOp.EditarJefeOpModel
+@{
+}
+
+<h2>Editar información de Jefe De Operaciones</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="EditJefeOp.Documento">Documento:</label>
+        <input asp-for="EditJefeOp.Documento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditJefeOp.Documento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditJefeOp.Nombre">Nombre:</label>
+        <input asp-for="EditJefeOp.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="EditJefeOp.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditJefeOp.Apellidos">Apellidos:</label>
+        <input asp-for="EditJefeOp.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="EditJefeOp.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditJefeOp.Telefono">Telefono:</label>
+        <input asp-for="EditJefeOp.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="EditJefeOp.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditJefeOp.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" asp-for="EditJefeOp.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditJefeOp.FechaNacimiento"></span>
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="EditJefeOp.Usuario" class="form-control">
+    </div>
+    <div class="form-group">
+        <input type="hidden" asp-for="EditJefeOp.Contraseña" class="form-control">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+<br>
+
+<a asp-page="./ListaJefeOp" class="btn-default">Lista</a>

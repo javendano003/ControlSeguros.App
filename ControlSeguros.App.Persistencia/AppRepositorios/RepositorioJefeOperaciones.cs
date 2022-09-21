@@ -74,6 +74,10 @@ namespace ControlSeguros.App.Persistencia.AppRepositorios
             return JefeOperacionesEncontrado;
 
         }
+        IEnumerable<JefeOperaciones> IRepositorioJefeOperaciones.BuscarJefeOperacion(string filtro = null) // la asignación filtro=null indica que el parámetro filtro es opcional
+        {
+            return _appContext.JefeOperaciones.Where(m => m.Documento.Contains(filtro) || m.Nombre.Contains(filtro) || m.Apellidos.Contains(filtro));
+        }
 
     }
 

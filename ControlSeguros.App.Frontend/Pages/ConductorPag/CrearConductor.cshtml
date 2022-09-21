@@ -1,0 +1,64 @@
+@page
+@model ControlSeguros.App.Frontend.Pages.ConductorPag.CrearConductor
+@{
+}
+
+<h2>Registrar Conductor</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="NewConductor.Documento">Documento:</label>
+        <input asp-for="NewConductor.Documento" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Documento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Nombre">Nombre:</label>
+        <input asp-for="NewConductor.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Apellidos">Apellidos:</label>
+        <input asp-for="NewConductor.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Telefono">Telefono:</label>
+        <input asp-for="NewConductor.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" asp-for="NewConductor.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.FechaNacimiento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Usuario">Usuario:</label>
+        <input asp-for="NewConductor.Usuario" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Usuario"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Contraseña">Contraseña:</label>
+        <input type="password" asp-for="NewConductor.Contraseña" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Contraseña"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Direccion">Direccion:</label>
+        <input asp-for="NewConductor.Direccion" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Direccion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.Licencia">Número de Licencia:</label>
+        <input asp-for="NewConductor.Licencia" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.Licencia"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="NewConductor.NivelEstudio">Nivel de Estudio:</label>
+        <input asp-for="NewConductor.NivelEstudio" class="form-control">
+        <span class="text-danger" asp-validation-for="NewConductor.NivelEstudio"></span>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Registrar</button>
+</form>
+<br>
+
+<a asp-page="./ListaConductores" class="btn-default">Lista</a>

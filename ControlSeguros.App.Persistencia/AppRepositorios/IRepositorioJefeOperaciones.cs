@@ -10,5 +10,6 @@ namespace ControlSeguros.App.Persistencia.AppRepositorios
         JefeOperaciones UpdateJefeOperaciones(JefeOperaciones jefeOperaciones);
         void DeleteJefeOperaciones(int idJefeOperaciones);
         JefeOperaciones GetJefeOperaciones(int idJefeOperaciones);
+        IEnumerable<JefeOperaciones> BuscarJefeOperacion(string filtro);
     }
 }

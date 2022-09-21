@@ -1,0 +1,56 @@
+@page
+@model ControlSeguros.App.Frontend.Pages.PropietarioPag.ListaPropietariosModel
+@{
+}
+
+<h2>Lista de Propietarios</h2>
+
+<a asp-page="./CrearPropietarios" class="btn btn-primary">Registrar</a>
+
+<br><br>
+
+<form method="get">
+    <div class="form-group">
+        <p>
+            Propietario: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            <input type="submit" value="Filtrar" class="btn btn-primary"/>
+        </p>
+    </div>
+</form>
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Documento</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Ciudad</th>
+            <th scope="col">Email</th>
+            <th scope="col"></th>
+            
+        </tr>
+    </thead>
+    @foreach (var Propietario in Model.ListaPropietario)
+    {
+        <tr>
+            <td>@Propietario.Documento</td>
+            <td>@Propietario.Nombre</td>
+            <td>@Propietario.Apellidos</td>
+            <td>@Propietario.Telefono</td>
+            <td>@Propietario.Ciudad</td>
+            <td>@Propietario.Correo</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarPropietarios" asp-route-MecanicoId="@Propietario.PropietarioId">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                <form method="post" asp-page-handler="Delete" asp-route-id="@Propietario.PropietarioId">
+                    <button class="btn btn-danger">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
