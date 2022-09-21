@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\Pages\\Vehiculos\\RegVehiculos.cshtml",
+      "TargetPath": "Pages\\Vehiculos\\RegVehiculos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\Pages\\PropietarioPag\\EditarPropietarios.cshtml",
       "TargetPath": "Pages\\PropietarioPag\\EditarPropietarios.cshtml",
       "FileKind": "mvc"
@@ -16380,6 +16385,11 @@
     {
       "FilePath": "c:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\Pages\\MecanicoPag\\RegistrarMecanico.cshtml",
       "TargetPath": "Pages\\MecanicoPag\\RegistrarMecanico.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\ControlSeguros\\ControlSeguros.App\\ControlSeguros.App.Frontend\\Pages\\Vehiculos\\Vehiculos.cshtml",
+      "TargetPath": "Pages\\Vehiculos\\Vehiculos.cshtml",
       "FileKind": "mvc"
     },
     {
