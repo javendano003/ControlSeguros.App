@@ -4,7 +4,7 @@ using ControlSeguros.App.Dominio;
 using ControlSeguros.App.Dominio.Entidades;
 using ControlSeguros.App.Persistencia;
 
-namespace ControlSeguros.App.Frontend.Pages.Usuarios
+namespace ControlSeguros.App.Frontend.Pages.Vehiculos
 {
     public class VehiculosModel : PageModel
     { 
