@@ -40,7 +40,7 @@ namespace ControlSeguros.App.Persistencia
         void IRepositorioRepuestos.DeleteRepuestos(int IdRepuestos)
         {
 
-            var repuestosEncontrado = _appContext.Repuestos.FirstOrDefault(p => p. == IdRepuestos);
+            var repuestosEncontrado = _appContext.Repuestos.FirstOrDefault(p => p.RepuestosId == IdRepuestos);
             if (repuestosEncontrado == null)
                 return;
             _appContext.Repuestos.Remove(repuestosEncontrado);

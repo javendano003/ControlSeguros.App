@@ -27,7 +27,7 @@ namespace ControlSeguros.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer(@"Data Source = DESKTOP-MSCL69Q\SQLEXPRESS; Initial Catalog = ControlSeguros2; Integrated security = true");
+                .UseSqlServer(@"Data Source = DESKTOP-MSCL69Q\SQLEXPRESS; Initial Catalog = ControlSeguros; Integrated security = true");
             }
 
             //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
